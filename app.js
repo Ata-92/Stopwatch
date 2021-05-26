@@ -18,5 +18,8 @@ setInterval(() => {
   if (play) {
     // miliseconds
     milisecond10.innerHTML < 9 ? milisecond10.innerHTML = "0" + (parseInt(milisecond10.innerHTML) + 1) : (milisecond10.innerHTML < 99 ? milisecond10.innerHTML = parseInt(milisecond10.innerHTML) + 1 : milisecond10.innerHTML = "00");
-  }
+
+    // seconds
+    milisecond10.innerHTML === "00" && (second.innerHTML < 9 ? second.innerHTML = "0" + (parseInt(second.innerHTML) + 1) : (second.innerHTML < 59 ? second.innerHTML = parseInt(second.innerHTML) + 1 : second.innerHTML = "00"));
+ }
 }, 10);
