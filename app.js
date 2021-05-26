@@ -21,5 +21,8 @@ setInterval(() => {
 
     // seconds
     milisecond10.innerHTML === "00" && (second.innerHTML < 9 ? second.innerHTML = "0" + (parseInt(second.innerHTML) + 1) : (second.innerHTML < 59 ? second.innerHTML = parseInt(second.innerHTML) + 1 : second.innerHTML = "00"));
- }
+
+    //minutes
+    (milisecond10.innerHTML === "00" && second.innerHTML === "00") && (minute.innerHTML < 9 ? minute.innerHTML = "0" + (parseInt(minute.innerHTML) + 1) : (minute.innerHTML < 59 ? minute.innerHTML = parseInt(minute.innerHTML) + 1 : minute.innerHTML = "00"));
+  }
 }, 10);
