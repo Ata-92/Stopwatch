@@ -26,3 +26,10 @@ setInterval(() => {
     (milisecond10.innerHTML === "00" && second.innerHTML === "00") && (minute.innerHTML < 9 ? minute.innerHTML = "0" + (parseInt(minute.innerHTML) + 1) : (minute.innerHTML < 59 ? minute.innerHTML = parseInt(minute.innerHTML) + 1 : minute.innerHTML = "00"));
   }
 }, 10);
+
+playPauseBtn.addEventListener("click", () => {
+  play = !play;
+  icons[1 - converter].style.display = "none";
+  icons[converter].style.display = "initial";
+  converter = 1 - converter;
+});
