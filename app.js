@@ -33,3 +33,15 @@ playPauseBtn.addEventListener("click", () => {
   icons[converter].style.display = "initial";
   converter = 1 - converter;
 });
+
+stopBtn.addEventListener("click", () => {
+  play = false;
+
+  converter = 1;
+  icons[converter].style.display = "none";
+  icons[1 - converter].style.display = "initial";
+
+  minute.innerHTML = "00";
+  second.innerHTML = "00";
+  milisecond10.innerHTML = "00";
+});
