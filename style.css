@@ -12,3 +12,29 @@ body {
   flex-direction: column;
   justify-content: center;
 }
+
+div {
+  background-color: #389677;
+  height: 80%;
+  padding: 5vh 0;
+}
+
+h1 {
+  background-color: black;
+  color: #fff;
+  width: 20%;
+  margin: 3vh auto;
+}
+
+p {
+  color: rgb(200, 0, 0);
+  font-size: xx-large;
+
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  margin: 3vh 3vw;
+}
+
