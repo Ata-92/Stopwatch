@@ -13,3 +13,10 @@ second.innerHTML = "00";
 milisecond10.innerHTML = "00";
 
 let play = false;
+
+setInterval(() => {
+  if (play) {
+    // miliseconds
+    milisecond10.innerHTML < 9 ? milisecond10.innerHTML = "0" + (parseInt(milisecond10.innerHTML) + 1) : (milisecond10.innerHTML < 99 ? milisecond10.innerHTML = parseInt(milisecond10.innerHTML) + 1 : milisecond10.innerHTML = "00");
+  }
+}, 10);
