@@ -38,3 +38,15 @@ button {
   margin: 3vh 3vw;
 }
 
+i {
+  background-color: #389677;
+  font-size: 5vw;
+}
+
+.play-pause i {
+  color: yellow;
+}
+
+.stop i {
+  color: #fff;
+}
