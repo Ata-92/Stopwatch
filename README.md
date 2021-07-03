@@ -4,13 +4,13 @@
 
 # JS-CC-008: Stopwatch
 
+## My Outcome
+![Stopwatch](stop-watch.gif)
+
 ## Assignment Statement
 
 - Time to put your newly learned skills to work!
-
-
 - Prepare a web page include functional stopwatch.
-
 
 ## Submit
 
@@ -23,11 +23,6 @@ At the end of the this coding challenge, students will be able to;
 - Analyze a problem, identify and apply programming knowledge for appropriate solution.
 
 - Demonstrate their knowledge of algorithmic design principles by using JavaScript and Python effectively.
-
-## Expected Outcome
-
-![Project 008 Snapshot](stopwatch.gif)
-
 
 ## Problem Statement
 
